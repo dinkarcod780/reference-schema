@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/post">create Post</a> <br>
+    <a href="/feed">Visit</a>
+    <h1>User Profile</h1>
+    <form action="/profile" method="post">
+        <input type="text" placeholder="enter your name" value="<%=user.name%>" name="name">
+        <input type="text" placeholder="enter your username" value="<%=user.username%>" name="username">
+        <input type="text" placeholder="enter your email" value="<%=user.email%>" name="email">
+    </form>
+</body>
+</html>
